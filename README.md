@@ -1,35 +1,59 @@
-# AI-Powered Resume Screening and Validation System
+# AI-Powered Resume Intelligence Platform
 
-An NLP-based system that analyzes resumes, matches them with relevant job descriptions, and detects inconsistencies in experience claims to improve hiring accuracy.
+An NLP-based system that analyzes resumes, matches them with job descriptions, detects inconsistencies, and provides feedback along with job recommendations.
 
-# Features
+---
 
-- Resume and job description matching using semantic similarity  
-- Extraction of structured data such as skills, roles, and experience from unstructured resumes  
-- Overclaim detection to identify unrealistic career progressions  
-- Technology timeline validation to detect incorrect experience claims  
-- Personalized feedback generation based on skill gaps  
-- Interview question generation based on matched job roles  
+##  Features
 
-# Technologies Used
+- Resume parsing (PDF/DOCX)
+- Skill, role, and experience extraction
+- Resume–Job Description matching using semantic similarity
+- Overclaim and fact consistency detection
+- Technology timeline validation
+- Job recommendations with links
+- Personalized feedback generation
+- Interview question generation
 
-- Python  
-- spaCy  
-- Scikit-learn  
-- Sentence Transformers  
-- pdfplumber  
-- python-docx  
-- pandas  
+---
 
-# How It Works
+##  Tech Stack
 
-1. User uploads a resume in PDF or DOCX format  
-2. The system extracts and cleans text from the resume  
-3. Skills, experience, and roles are identified and structured  
-4. Resume is compared with job descriptions using similarity models  
-5. System checks for overclaims and timeline inconsistencies  
-6. Generates match score, feedback, and interview questions  
+### Backend
+- Python
+- spaCy
+- Scikit-learn
+- Sentence Transformers
+- pdfplumber
+- python-docx
+- pandas
 
-# Installation and Setup
+### Frontend
+- Next.js
+- React
+- Tailwind CSS
 
-1. Clone the repository  
+---
+
+##  How It Works
+
+1. User uploads a resume  
+2. System extracts and structures data  
+3. Skills and experience are analyzed  
+4. Resume is matched with job descriptions  
+5. Inconsistencies and overclaims are detected  
+6. System generates:
+   - Match score  
+   - Job recommendations  
+   - Feedback  
+   - Interview questions  
+
+---
+
+##  Running the Project
+
+### Frontend
+
+```bash
+npm install
+npm run dev
